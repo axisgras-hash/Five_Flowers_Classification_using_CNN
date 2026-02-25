@@ -37,8 +37,8 @@ def download_file(url,path):
 
 # Download important Assests
 
-# download_file(MODEL_URL,MODEL_PATH)
-# download_file(CLASSES_URL,CLASSES_PATH)
+download_file(MODEL_URL,MODEL_PATH)
+download_file(CLASSES_URL,CLASSES_PATH)
 
 model = load_model(MODEL_PATH)
 classes = np.load(CLASSES_PATH)
