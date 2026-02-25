@@ -3,7 +3,7 @@ import numpy as np
 import os
 import requests
 from PIL import Image
-from tensorflow.kears.models import load_model
+from tensorflow.keras.models import load_model
 
 IMAGE_SIZE = (180,180)
 
